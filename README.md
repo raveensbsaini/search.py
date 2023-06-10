@@ -1,15 +1,17 @@
 # search.py
+
+
 if you have a sorted list of incrasing order then you can  find a particular number in the list and get back its index. 
-def search(list,x,last=None,lo=0):
-    if last is None:
-        last=len(list)
-   
-    while lo!=last-1:
-        y=(lo+last)//2
-        if list[y]>x:
-            last=y
-        if list[y]<x:
-            lo=y
-        if list[y]==x:
-            return y        
-    return None
+
+
+
+
+list=[3,5,6,7,8,9]#here the list is of increasing order 
+
+
+
+y=search(list,7):# here y is equal to the index in list where 7 is stored
+
+print(y)
+
+answer= 3
